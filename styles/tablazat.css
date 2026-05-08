@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #1f2937;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+table tr:hover {
+    background-color: #e5e7eb;
+}
+
+.muvelet-gomb {
+    margin-right: 5px;
+}
