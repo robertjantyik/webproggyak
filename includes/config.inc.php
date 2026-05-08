@@ -95,8 +95,8 @@ $hiba_oldal = array(
 try {
     $dbh = new PDO(
         'mysql:host=localhost;dbname=mozi',
-        'root',
-        '',
+        'mozi',
+        'WebProgNJE123',
         array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION)
     );
 
